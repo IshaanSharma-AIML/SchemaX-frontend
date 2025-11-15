@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback, Suspense } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams, useSearchParams } from 'next/navigation';
 import { sendMessage, addHumanMessage, addAiMessage, clearChat, getChatHistory, markMessageImportant, unmarkMessageImportant, deleteMessage, getImportantMessages, getConversations, generateVisualization } from '@/lib/store/users-panel/chat/chatSlice';
@@ -593,7 +593,7 @@ function getMessagesInOrder(messages) {
 }
 
 // Main ChatPage Component
-const ChatPage = () => {
+const ChatPageContent = () => {
     const [inputValue, setInputValue] = useState('');
     const [showScrollButton, setShowScrollButton] = useState(false);
     const chatContainerRef = useRef(null);
@@ -1212,4 +1212,17 @@ const ChatPage = () => {
     );
 };
 
-export default ChatPage;
+export default function ChatPage() {
+    return (
+        <Suspense fallback={
+            <div className="h-screen w-full bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center">
+                <div className="text-center">
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
+                    <p className="mt-4 text-gray-600 dark:text-gray-400">Loading chat...</p>
+                </div>
+            </div>
+        }>
+            <ChatPageContent />
+        </Suspense>
+    );
+}
