@@ -1,3 +1,4 @@
+// Authentication slice for managing user authentication state
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { toast } from 'react-hot-toast';
 import Cookies from 'js-cookie';
