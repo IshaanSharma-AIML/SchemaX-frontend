@@ -1,3 +1,5 @@
+// Registration page component
+// Handles new user registration with form validation
 'use client';
 
 import { useState } from 'react';

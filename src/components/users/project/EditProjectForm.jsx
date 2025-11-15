@@ -1,3 +1,5 @@
+// Edit project form component
+// Form for editing project details, database credentials, and AI agent configuration
 'use client';
 
 import { useState, useEffect } from 'react';

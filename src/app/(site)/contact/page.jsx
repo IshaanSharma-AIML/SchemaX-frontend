@@ -1,3 +1,5 @@
+// Contact page component
+// Contact form and company information for user inquiries
 'use client';
 
 import { useState } from 'react';

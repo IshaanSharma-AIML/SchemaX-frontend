@@ -1,3 +1,5 @@
+// Badge component from shadcn/ui
+// Small status indicator component with variant styling
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cn } from "@/lib/utils"

@@ -1,3 +1,5 @@
+// User dashboard page component
+// Displays user's projects with options to create, view, edit, and delete projects
 'use client';
 
 import { useEffect, useState, useRef } from 'react';

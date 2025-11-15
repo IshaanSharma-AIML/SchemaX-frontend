@@ -1,3 +1,5 @@
+// Page title component
+// Displays styled page headings with consistent formatting
 const PageTitles = (props) => {
     const { name } = props;
     return (

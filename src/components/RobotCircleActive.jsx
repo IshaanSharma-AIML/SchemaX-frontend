@@ -1,3 +1,5 @@
+// Robot avatar component with active indicator
+// Displays a robot icon with a pulsing active status indicator
 import { FaRobot } from 'react-icons/fa';
 const RobotCircleActive = () => {
     return (

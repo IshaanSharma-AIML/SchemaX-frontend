@@ -1,3 +1,5 @@
+// Website button component
+// Reusable button component with sky-blue styling and hover effects
 const WebsiteButton = ({ children, isFullWidth, ...rest }) => {
   return (
     <button

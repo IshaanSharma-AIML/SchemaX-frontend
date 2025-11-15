@@ -1,3 +1,5 @@
+// Documentation page component
+// Displays documentation, guides, and API references
 'use client';
 
 import { FaBook, FaCode, FaRocket, FaQuestionCircle, FaArrowRight, FaSearch, FaFilter, FaExternalLinkAlt } from 'react-icons/fa';

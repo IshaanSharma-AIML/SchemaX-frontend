@@ -1,3 +1,5 @@
+// Pricing page component
+// Displays pricing plans and subscription options (currently commented out)
 // 'use client';
 
 // import { FaCheck, FaTimes, FaRocket, FaCrown, FaBuilding, FaArrowRight, FaShieldAlt, FaAward } from 'react-icons/fa';

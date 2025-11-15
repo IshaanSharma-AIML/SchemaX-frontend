@@ -1,3 +1,5 @@
+// Button component from shadcn/ui
+// Reusable button component with multiple variants and sizes
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva } from "class-variance-authority"

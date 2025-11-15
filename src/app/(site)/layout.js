@@ -1,4 +1,5 @@
-// app/(site)/layout.js
+// Layout component for public-facing site pages
+// Wraps public pages with the frontend header component
 import Header from '@/components/frontend/Header';
 
 export const metadata = {

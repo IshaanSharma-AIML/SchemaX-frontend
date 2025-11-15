@@ -1,3 +1,5 @@
+// Gradient button component with hover effects
+// Reusable button component with gradient styling and glow effect
 import Link from 'next/link';
 
 const GradientButton = ({ href, children, className = '' }) => (

@@ -1,3 +1,5 @@
+// Download page component
+// Displays download options and platform information
 'use client';
 
 import { FaDownload, FaDesktop, FaMobile, FaCloud, FaShieldAlt, FaAward, FaCheckCircle, FaArrowRight } from 'react-icons/fa';

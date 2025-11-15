@@ -1,3 +1,5 @@
+// User panel header component
+// Displays user menu, notifications, theme toggle, and logout functionality
 'use client';
 
 import React, { useState, useEffect, useRef } from "react";

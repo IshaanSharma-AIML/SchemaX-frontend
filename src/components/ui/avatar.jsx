@@ -1,3 +1,5 @@
+// Avatar component from shadcn/ui
+// User avatar display component with fallback support
 "use client"
 
 import * as React from "react"

@@ -1,3 +1,5 @@
+// Visualization manager component for displaying and managing data visualizations
+// Handles filtering, sorting, favoriting, and downloading visualizations
 'use client';
 
 import { useState, useEffect } from 'react';

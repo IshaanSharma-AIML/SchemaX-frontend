@@ -1,3 +1,5 @@
+// Form label component
+// Styled label component for form inputs with consistent styling
 const Label = (props) => {
     const { name, htmlFor } = props;
     return (

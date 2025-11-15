@@ -1,5 +1,5 @@
-// src/app/layout.jsx
-
+// Root layout component for the Next.js application
+// Configures fonts, providers (Redux, Theme), and global toast notifications
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import StoreProvider from "@/lib/store/StoreProvider";

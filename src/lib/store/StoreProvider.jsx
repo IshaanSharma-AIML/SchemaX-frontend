@@ -1,4 +1,5 @@
-// src/lib/store/StoreProvider.jsx
+// Redux store provider component for Next.js
+// Wraps the application to provide Redux store context to all components
 'use client'
 import { useRef } from 'react'
 import { Provider } from 'react-redux'

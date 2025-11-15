@@ -1,5 +1,5 @@
-// /src/app/page.jsx
-
+// Homepage component for the public site
+// Displays hero section, features, database support, and testimonials
 'use client';
 
 import Link from 'next/link';

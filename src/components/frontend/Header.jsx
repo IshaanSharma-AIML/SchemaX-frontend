@@ -1,3 +1,5 @@
+// Frontend header component for public-facing pages
+// Includes navigation, theme toggle, and authentication links
 "use client";
 import Link from 'next/link';
 import { useState, useEffect } from 'react';

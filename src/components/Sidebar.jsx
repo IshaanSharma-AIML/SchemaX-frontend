@@ -1,3 +1,5 @@
+// Chat sidebar component for displaying conversation history
+// Manages conversations list, editing, deletion, and navigation
 'use client';
 
 import { useState, useRef, useEffect } from 'react';

@@ -1,3 +1,5 @@
+// Chat interface page component
+// Main chat interface for interacting with AI, managing conversations, and viewing visualizations
 'use client';
 
 import { useState, useRef, useEffect, useCallback, Suspense } from 'react';

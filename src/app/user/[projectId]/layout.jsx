@@ -1,3 +1,5 @@
+// Layout component for project-specific pages
+// Wraps project pages with sidebar navigation for chat interface
 'use client';
 
 import { useState } from 'react';

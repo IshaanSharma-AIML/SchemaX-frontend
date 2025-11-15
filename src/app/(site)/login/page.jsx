@@ -1,3 +1,5 @@
+// Login page component
+// Handles user authentication with email and password
 'use client';
 
 import { useState, useEffect, Suspense } from 'react';

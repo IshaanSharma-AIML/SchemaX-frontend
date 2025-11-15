@@ -1,3 +1,5 @@
+// Alert dialog component from shadcn/ui
+// Modal dialog component for confirmations and alerts
 "use client"
 
 import * as React from "react"

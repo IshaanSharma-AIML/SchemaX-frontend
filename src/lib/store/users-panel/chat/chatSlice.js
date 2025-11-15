@@ -1,4 +1,5 @@
-// src/lib/store/features/chat/chatSlice.js
+// Chat slice for managing chat conversations, messages, and visualizations
+// Handles AI interactions, conversation history, and data visualization features
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { toast } from 'react-hot-toast';
 import { v4 as uuidv4 } from 'uuid';

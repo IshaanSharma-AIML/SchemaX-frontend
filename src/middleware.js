@@ -1,5 +1,5 @@
-// src/middleware.js
-
+// Next.js middleware for route protection and authentication
+// Handles redirects for protected routes and logged-in users accessing auth pages
 import { NextResponse } from 'next/server';
 
 export function middleware(request) {

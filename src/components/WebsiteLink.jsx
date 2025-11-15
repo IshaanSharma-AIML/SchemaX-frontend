@@ -1,3 +1,5 @@
+// Website link component
+// Styled link component with hover color transition
 import Link from "next/link";
 
 const WebsiteLink = (props) => {

@@ -1,3 +1,5 @@
+// Dropdown menu component from shadcn/ui
+// Context menu component with keyboard navigation support
 "use client"
 
 import * as React from "react"

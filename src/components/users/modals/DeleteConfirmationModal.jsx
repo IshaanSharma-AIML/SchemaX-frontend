@@ -1,4 +1,5 @@
-// src/components/users/modals/DeleteConfirmationModal.jsx
+// Delete confirmation modal component
+// Reusable modal for confirming destructive actions with loading states
 'use client';
 
 import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogAction, AlertDialogCancel } from "@/components/ui/alert-dialog";

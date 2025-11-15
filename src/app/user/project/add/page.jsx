@@ -1,3 +1,5 @@
+// Add new project page component
+// Form for creating a new project with database credentials and AI agent configuration
 'use client';
 
 import { useState } from 'react';

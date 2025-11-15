@@ -1,5 +1,6 @@
-'use client'; 
-// /src/app/project/[projectId]/edit/page.jsx
+// Edit project page component
+// Dynamically loads the edit project form component
+'use client';
 import dynamic from 'next/dynamic';
 
 // Dynamically import the form component with SSR turned off.

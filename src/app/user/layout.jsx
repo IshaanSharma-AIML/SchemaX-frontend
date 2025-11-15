@@ -1,4 +1,5 @@
-// app/user/layout.jsx
+// Layout component for authenticated user pages
+// Wraps user pages with the user panel header component
 import Header from '@/components/users/layouts/Header';
 
 export const metadata = {

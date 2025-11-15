@@ -1,3 +1,5 @@
+// Custom hook for text-to-speech functionality
+// Provides speech synthesis capabilities using the Web Speech API
 import { useState, useEffect, useRef } from 'react';
 
 /**

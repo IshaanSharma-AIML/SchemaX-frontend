@@ -1,4 +1,5 @@
-// src/lib/store/features/projects/projectSlice.js
+// Project slice for managing project CRUD operations and state
+// Handles creating, reading, updating, and deleting projects
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { toast } from 'react-hot-toast';
 

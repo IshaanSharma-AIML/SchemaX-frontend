@@ -1,3 +1,5 @@
+// Blog page component
+// Displays blog posts, articles, and news updates
 'use client';
 
 import { FaCalendar, FaUser, FaArrowRight, FaTag, FaSearch, FaFilter } from 'react-icons/fa';

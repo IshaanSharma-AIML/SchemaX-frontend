@@ -1,4 +1,5 @@
-// /src/contexts/ThemeContext.js
+// Theme context provider for managing light/dark mode
+// Provides theme state and toggle functionality across the application
 'use client';
 
 import { createContext, useState, useEffect, useContext } from 'react';
